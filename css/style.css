@@ -1,0 +1,120 @@
+
+/* Estilos gerais */
+
+* {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	z-index: -2;
+	position: relative;
+}
+
+body div p {
+	font-family: Arial;
+	color: #000;
+}
+
+img {
+	border: 0;
+}
+
+h1, h1 a {
+	font-family: source-sans-pro, sans-serif;
+	/*font-weight: SemiBold;*/
+	font-size: 64px;
+	color:#fff;
+}
+
+h2 {
+	font-family: source-sans-pro, sans-serif;
+	font-size: 60px;
+	line-height: 80px;
+	color:#417f1c;
+	margin-top: 500px;
+}
+
+h3 {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 24px;
+	color:#fff;
+}
+
+/* header */
+
+
+.header {
+	position : fixed;
+	top:0; 
+	width : 100%;
+	background-color: #1c4500;
+	padding: 14px;
+	color: #fff;
+	z-index: 0;
+}
+
+
+#header1 {
+	width : 444px;
+	float: left;
+}
+#header2 {
+	width : 260px;
+	float: left;
+	text-align: center;
+	padding-top: 20px;
+}
+#header3 {
+	width : 216px;
+	float:left;
+	text-align: left;
+	padding-top: 20px;
+}
+#header4 {
+	width : 168px;
+	float:right;
+	padding-top: 11px;
+}
+
+ul {
+	color: #000;
+}
+
+/* Introdução */
+.main-home {
+	margin-top: 90px;
+	background: url("../img/main-fill-with-shadow.jpg") no-repeat center;
+	background-size: cover;
+	height : 500px;
+}
+
+.main-home p {
+	display: inline-block;
+	height: 30px;
+	color: #fff;
+	font-family: "Helvetica-Neue", Helvetica, sans-serif;
+	padding: 3px;
+	margin-top: 8px;
+	margin-bottom: 148px;
+}
+
+
+.btn a {
+	font-family: source-sans-pro, sans-serif;
+	/*font-weight: Black;*/
+	font-size: 16px;
+	line-height: 20px;
+	color : #fff;
+	height: 50px;
+	width: 168px;
+	float: left;
+	margin-top: 20px;
+	background: #1c4500;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	box-shadow: 5px 5px 5px #000;
+}
+
+.btn a:hover {
+	background: #60b5a5;
+	box-shadow: 10px 10px 10px #111;
+	color: #1c4500;
+}

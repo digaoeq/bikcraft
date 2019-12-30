@@ -20,7 +20,7 @@ img {
 
 h1, h1 a {
 	font-family: source-sans-pro, sans-serif;
-	/*font-weight: semibold;*/
+	font-weight: 600;
 	font-size: 64px;
 	color:#fff;
 }
@@ -29,6 +29,7 @@ h1, h1 a {
 
 h2 {
 	font-family: source-sans-pro, sans-serif;
+	font-weight: 900;
 	font-size: 60px;
 	line-height: 80px;
 	color:#417f1c;
@@ -115,7 +116,7 @@ ul {
 
 .btn a {
 	font-family: source-sans-pro, sans-serif;
-	font-weight: black;
+	font-weight: 900;
 	font-size: 16px;
 	line-height: 20px;
 	color : #fff;
@@ -137,10 +138,11 @@ ul {
 }
 
 /*configurando os títulos e subtítulos da parte em branco*/
+
 #title1 {
 	font-family: source-sans-pro, sans-serif;
 	font-size: 60px
-	font-weight: black;
+	font-weight: 900;
 	word-spacing: -30px;
 	line-height: 80px
 	width : 232px;
@@ -161,13 +163,15 @@ ul {
 	color:#417f1c;
 }
 
+/*esse id criei apenas para fazer a linha que fica abaixo de "produtos" */
+
 #title-line {
 	content:"";
 	display:block;
-	width:480px;
+	width:485px;
 	height:2px;
 	background: #417f1c;
 	color: #417f1c;
 	font-size: 1px;
-	margin: 95px 0px 0px 15px;
+	margin: 95px 0px 0px 18px;
 }

@@ -3,12 +3,12 @@
 
 * {
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
-	z-index: -2;
+	z-index: -1;
 	position: relative;
 }
 
+
 body div p {
-	font-family: Arial;
 	color: #000;
 }
 
@@ -16,20 +16,26 @@ img {
 	border: 0;
 }
 
+/*h1 são os títulos que ficam sobre as fotos*/
+
 h1, h1 a {
 	font-family: source-sans-pro, sans-serif;
-	/*font-weight: SemiBold;*/
+	/*font-weight: semibold;*/
 	font-size: 64px;
 	color:#fff;
 }
+
+/*h2 são os títulos que ficam em cima da parte em branco*/
 
 h2 {
 	font-family: source-sans-pro, sans-serif;
 	font-size: 60px;
 	line-height: 80px;
 	color:#417f1c;
-	margin-top: 500px;
+	margin-top: 30px;
 }
+
+/*h3 é o texto que fica abaixo dos títulos h1*/
 
 h3 {
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -50,28 +56,38 @@ h3 {
 	z-index: 0;
 }
 
+/*configurando o estilo do cabeçalho*/
 
 #header1 {
 	width : 444px;
 	float: left;
+	
 }
+
 #header2 {
 	width : 260px;
 	float: left;
 	text-align: center;
 	padding-top: 20px;
 }
+
 #header3 {
 	width : 216px;
 	float:left;
 	text-align: left;
 	padding-top: 20px;
 }
+
 #header4 {
 	width : 168px;
 	float:right;
 	padding-top: 11px;
 }
+
+.front-link, #header1 a, #header4 a {
+	z-index: 1;
+}
+
 
 ul {
 	color: #000;
@@ -95,10 +111,11 @@ ul {
 	margin-bottom: 148px;
 }
 
+/*configurando o botào padrão*/
 
 .btn a {
 	font-family: source-sans-pro, sans-serif;
-	/*font-weight: Black;*/
+	font-weight: black;
 	font-size: 16px;
 	line-height: 20px;
 	color : #fff;
@@ -117,4 +134,40 @@ ul {
 	background: #60b5a5;
 	box-shadow: 10px 10px 10px #111;
 	color: #1c4500;
+}
+
+/*configurando os títulos e subtítulos da parte em branco*/
+#title1 {
+	font-family: source-sans-pro, sans-serif;
+	font-size: 60px
+	font-weight: black;
+	word-spacing: -30px;
+	line-height: 80px
+	width : 232px;
+	float: left;
+	text-align: left;
+}
+
+#title2 {
+	font-family: "Helvetica-Neue", Helvetica, sans-serif;
+	font-weight: medium;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: -1px;
+	width : 268px;
+	float: left;
+	text-align: center;
+	padding-top: 65px;
+	color:#417f1c;
+}
+
+#title-line {
+	content:"";
+	display:block;
+	width:480px;
+	height:2px;
+	background: #417f1c;
+	color: #417f1c;
+	font-size: 1px;
+	margin: 95px 0px 0px 15px;
 }

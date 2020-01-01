@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/caroussel.css">
 		<script src="https://use.edgefonts.net/source-sans-pro:n6,n9.js"></script>
 	</head>
 	<body>
@@ -43,7 +44,41 @@
 			<div id="title1"><h2>produtos</h2></div><div id="title2">conheça as nossas bikes</div>
 			<!-- na linha abaixo o texto é apenas para a linha aparecer -->
 			<div id="title-line">nononononono</div>
-			<div></div>
+
+			<!-- Slideshow container -->
+			<div class="slideshow-container">
+			  <!-- Full-width images with number and caption text -->
+			  <div class="mySlides fade">
+			    <img src="img/caroussel-1.jpg" style="width:100%">
+			    <p class="title-caroussel">modelos de bike</p>
+			    <div class="text">a Bikcraft constrói a bicicleta dos seus sonhos<br>a partir de cada um de nossos três modelos</div>
+			  </div>
+
+			  <div class="mySlides fade">
+			    <img src="img/caroussel-2.jpg" style="width:100%">
+			    <p class="title-caroussel">materiais e fabricação</p>
+			    <div class="text">conheça mais sobre as matérias-primas que usamos, nossa<br>equipe qualificada e nossos avançados padrões de fabricação</div>
+			  </div>
+
+			  <div class="mySlides fade">
+			    <img src="img/caroussel-3.jpg" style="width:100%">
+			    <p class="title-caroussel">nosso portfolio</p>
+			    <div class="text">veja projetos concluídos para clientes<br>que buscavam uma bike exclusiva</div>
+			  </div>
+
+			  <!-- Next and previous buttons -->
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+
+			<!-- The dots/circles -->
+			<div style="text-align:right;margin:19px 16px">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+			<script src="js/caroussel.js"></script>
 		</section>
 	</body>
 </html>

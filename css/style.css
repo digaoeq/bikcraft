@@ -129,6 +129,7 @@ ul {
 	padding-bottom: 15px;
 	text-align: center;
 	box-shadow: 5px 5px 5px #000;
+	border-radius: 5px;
 }
 
 .btn a:hover {

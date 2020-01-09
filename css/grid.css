@@ -31,10 +31,23 @@
 
 .grid-1 	{width: 76px;}
 .grid-2 	{width: 168px;}
-.grid-3 	{width: 260px;}
+.grid-3 	{
+	width: 260px;
+	float: left;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+	padding: 24px 0px 0px 0px ;
+	display: inline-block;
+	/*padding-top: 20px;*/
+}
 .grid-4 	{width: 352px;}
 .grid-5 	{width: 446px;}
-.grid-6 	{width: 538px;}
+.grid-6 	{
+	width: 538px;
+	/*float: left;*/
+	/*text-align: left;*/
+	margin: 0px 0px 0px 20px;
+}
 .grid-7 	{width: 630px;}
 .grid-8 	{width: 722px;}
 .grid-9 	{width: 816px;}

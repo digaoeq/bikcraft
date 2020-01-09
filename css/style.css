@@ -112,7 +112,11 @@ ul {
 	margin-bottom: 148px;
 }
 
-/*configurando o botào padrão*/
+.home {
+	margin-bottom: 88px;
+}
+
+/*configurando o botão padrão*/
 
 .btn a {
 	font-family: source-sans-pro, sans-serif;
@@ -175,4 +179,48 @@ ul {
 	color: #417f1c;
 	font-size: 1px;
 	margin: 95px 0px 0px 18px;
+}
+
+/*RODAPÉ*/
+
+.footer {
+	background: #1c4500;
+	display: /*inline-*/block;
+	height: 200px;
+	width : 100%;
+	bottom: 0px;
+	/*padding-top: 16px;*/
+}
+
+.footer li{
+	font-family: "Helvetica-Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+}	
+
+.footer ul {
+	margin-left: 20px;
+	margin-top: -28px;
+}
+
+.footer ul h3 {
+	font-family: source-sans-pro, sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	color:#fff;
+	line-height: 31px;
+	margin-bottom: 10px;
+}
+
+.copyright {
+	bottom:10px;
+	font-family: "Helvetica-Neue", Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #fff;
+	margin-top: 55px
+	/*padding-left: 20px;*/
+	/*margin-left: 20px;*/
+
 }

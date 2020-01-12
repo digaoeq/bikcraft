@@ -41,14 +41,29 @@
 	/*padding-top: 20px;*/
 }
 .grid-4 	{width: 352px;}
-.grid-5 	{width: 446px;}
+.grid-5 	{
+	width: 446px;
+	float: left;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+	padding: 24px 0px 0px 0px ;
+	display: inline-block;
+}
 .grid-6 	{
 	width: 538px;
 	/*float: left;*/
 	/*text-align: left;*/
 	margin: 0px 0px 0px 20px;
 }
-.grid-7 	{width: 630px;}
+.grid-7 	{
+	width: 630px;
+	float: left;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+	padding: 15px 45px 0px 0px ;
+	display: inline-block;
+	word-wrap: break-word;
+}
 .grid-8 	{width: 722px;}
 .grid-9 	{width: 816px;}
 .grid-10 	{width: 908px;}
